@@ -3,7 +3,7 @@
 </template>
 
 
-<style>
+<style scoped>
 .loader,
 .loader:after {
   border-radius: 50%;

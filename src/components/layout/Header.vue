@@ -10,7 +10,18 @@
         .hero-body
           .container.has-text-centered 
             h1.title Spotify Music
-            h2.subtitle Here you can search songs what you want
-            
+            h2.subtitle Here you can search songs what do you want
+            Player
 </template>
+
+<script>
+import Player from '@/components/Player.vue'
+
+export default {
+  components:{
+    Player
+  }
+}
+</script>
+
 
